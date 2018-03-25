@@ -1,0 +1,39 @@
+{
+  "name": "nextjs-starter",
+  "version": "1.0.0",
+  "description": "buritica nextjs starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "Juan Pablo Buriticá <buritica@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-inline-import": "^2.0.6",
+    "next": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-normalize": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-typography": "^0.16.13",
+    "styled-jsx-plugin-postcss": "^0.1.2",
+    "typography": "^0.16.6",
+    "typography-theme-grand-view": "^0.15.10"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-nested": {},
+      "postcss-normalize": {},
+      "postcss-cssnext": {}
+    }
+  },
+  "browserslist": "last 2 versions"
+}
