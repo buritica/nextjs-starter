@@ -1,5 +1,4 @@
 import Layout from '../components/layout/main'
-import Link from 'next/link'
 
 export default () => (
   <Layout>

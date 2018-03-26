@@ -1,4 +1,4 @@
-import Meta, { rhythm } from '../meta'
+import Meta from '../meta'
 import Link from 'next/link'
 
 export default props => (
@@ -20,11 +20,11 @@ export default props => (
         </div>
       </div>
     </div>
-    <style jsx>{` 
+    <style jsx>{`
     /* https://github.com/zeit/styled-jsx/issues/254 */
     @custom-media --medium-up (width > 641px);
     @custom-media --large-up (width > 1025px);
-    
+
     .container {
       display: grid;
       grid-template-areas: "logo" "header" "content";
