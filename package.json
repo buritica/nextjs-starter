@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "buritica nextjs starter",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buritica/nextjs-starter.git"
+  },
   "scripts": {
-    "test": "NODE_ENV=test jest",
+    "test": "jest",
     "dev": "next",
     "build": "next build",
     "start": "next start"
