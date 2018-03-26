@@ -15,7 +15,6 @@ matrix:
 
 before_install:
   - npm config set spin false
-  - npm install npm@5.6.0
 
 install:
   - npm install
