@@ -7,7 +7,7 @@ import renderer from 'react-test-renderer'
 import App from '../pages/index.js'
 
 describe('With Enzyme', () => {
-  it('App shows "☠️hello world ☠️"', () => {
+  it('Index shows "☠️hello world ☠️"', () => {
     const app = shallow(<App />)
 
     expect(app.find('p').text()).toEqual('☠️hello world ☠️')
