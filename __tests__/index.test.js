@@ -21,7 +21,7 @@ describe('With Enzyme', () => {
 })
 
 describe('With Snapshot Testing', () => {
-  it.skip('App shows "Hello world!"', () => {
+  it('App shows "Hello world!"', () => {
     const component = renderer.create(<App />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
