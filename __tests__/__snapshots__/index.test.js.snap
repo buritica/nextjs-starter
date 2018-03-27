@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing App shows "Hello world!" 1`] = `
+<div
+  className="jsx-3770575396"
+>
+  <div
+    className="jsx-71834248"
+  />
+  <div
+    className="jsx-3770575396 container"
+  >
+    <img
+      alt="colombia.dev Logo Condor"
+      className="jsx-3770575396"
+      id="logo"
+      onClick={[Function]}
+      src="./static/logo_condor.svg"
+    />
+    <h1
+      className="jsx-3770575396"
+    >
+      buritica next.js starter
+    </h1>
+    <div
+      className="jsx-3770575396 content-bg"
+    >
+      <div
+        className="jsx-3770575396 content"
+      >
+        <div
+          className="jsx-2973485774 content"
+        >
+          <h2
+            className="jsx-2973485774"
+          >
+            Starter
+          </h2>
+          <p
+            className="jsx-2973485774"
+          >
+            ☠️hello world ☠️
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

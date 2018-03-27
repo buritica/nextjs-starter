@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "buritica nextjs starter",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/buritica/nextjs-starter.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "ci": "jest -w 1",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -14,7 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-inline-import": "^2.0.6",
-    "next": "^5.0.0",
+    "next": "^5.1.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-nested": "^3.0.0",
     "postcss-normalize": "^4.0.0",
@@ -26,6 +31,11 @@
     "typography-theme-grand-view": "^0.15.10"
   },
   "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.2.0",
     "standard": "^11.0.1"
   },
   "postcss": {

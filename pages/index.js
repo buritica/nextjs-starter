@@ -1,9 +1,9 @@
 import Layout from '../components/layout/main'
-import Link from 'next/link'
 
 export default () => (
   <Layout>
     <div className='content'>
+      <h2>Starter</h2>
       <p>☠️hello world ☠️</p>
     </div>
     <style jsx global>{`.content-bg{background:black;}`}</style>
