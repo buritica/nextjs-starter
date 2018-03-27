@@ -7,12 +7,6 @@ import renderer from 'react-test-renderer'
 import App from '../pages/index.js'
 
 describe('With Enzyme', () => {
-  it('Index shows "Starter', () => {
-    const app = shallow(<App />)
-
-    expect(app.find('h2').text()).toEqual('Starter')
-  })
-
   it('Index shows "☠️hello world ☠️"', () => {
     const app = shallow(<App />)
 
