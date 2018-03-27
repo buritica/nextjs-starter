@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:9.8.0-browsers
+      - image: circleci/node:8.10-browsers
     steps:
       - run:
           name: "Checking Versions"

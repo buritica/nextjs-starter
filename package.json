@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-inline-import": "^2.0.6",
-    "next": "^4.2.1",
+    "next": "^4.2.3",
     "postcss-cssnext": "^3.1.0",
     "postcss-nested": "^3.0.0",
     "postcss-normalize": "^4.0.0",
