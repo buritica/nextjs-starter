@@ -13,7 +13,7 @@ describe('With Enzyme', () => {
     expect(app.find('h2').text()).toEqual('Starter')
   })
 
-  it.skip('Index shows "☠️hello world ☠️"', () => {
+  it('Index shows "☠️hello world ☠️"', () => {
     const app = shallow(<App />)
 
     expect(app.find('p').text()).toEqual('☠️hello world ☠️')
