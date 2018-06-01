@@ -1,5 +1,7 @@
 # nextjs starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/buritica/nextjs-starter.svg)](https://greenkeeper.io/)
+
 This is my Next.js Starter, to make it easier every time I start a new project. It includes:
 
 - Next.js 5.0.0
